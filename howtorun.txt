@@ -1,0 +1,3 @@
+export HADOOP_CLASSPATH=`/usr/bin/hbase/bin/hbase classpath`
+
+hadoop jar hbase-examples.jar com.nearinfinity.explore.hbase.samples.basic.CreateTable
