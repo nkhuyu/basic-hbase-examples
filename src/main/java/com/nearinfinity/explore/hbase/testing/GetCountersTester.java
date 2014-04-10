@@ -12,5 +12,6 @@ public class GetCountersTester {
         long current = table.incrementColumnValue(Bytes.toBytes("20110705"), Bytes.toBytes("daily"),
                 Bytes.toBytes("hits"), 1L);
         System.out.println("current = " + current);
+        table.close();
     }
 }
